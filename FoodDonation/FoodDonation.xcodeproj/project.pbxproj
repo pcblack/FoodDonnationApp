@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A27CB7F224C72B880052E9B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27CB7F124C72B880052E9B2 /* AppDelegate.swift */; };
+		A27CB7F424C72B880052E9B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27CB7F324C72B880052E9B2 /* SceneDelegate.swift */; };
+		A27CB7F624C72B880052E9B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27CB7F524C72B880052E9B2 /* ViewController.swift */; };
+		A27CB7F924C72B880052E9B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A27CB7F724C72B880052E9B2 /* Main.storyboard */; };
+		A27CB7FC24C72B880052E9B2 /* FoodDonation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A27CB7FA24C72B880052E9B2 /* FoodDonation.xcdatamodeld */; };
+		A27CB7FE24C72B8C0052E9B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A27CB7FD24C72B8C0052E9B2 /* Assets.xcassets */; };
+		A27CB80124C72B8C0052E9B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A27CB7FF24C72B8C0052E9B2 /* LaunchScreen.storyboard */; };
+		A27CB80C24C72B8D0052E9B2 /* FoodDonationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27CB80B24C72B8D0052E9B2 /* FoodDonationTests.swift */; };
+		A27CB81724C72B8D0052E9B2 /* FoodDonationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27CB81624C72B8D0052E9B2 /* FoodDonationUITests.swift */; };
+		A27CB82524C737A30052E9B2 /* SignUpPAgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27CB82424C737A30052E9B2 /* SignUpPAgeViewController.swift */; };
+		A27CB82724C76E740052E9B2 /* LoginPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27CB82624C76E740052E9B2 /* LoginPageViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A27CB80824C72B8C0052E9B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A27CB7E624C72B880052E9B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A27CB7ED24C72B880052E9B2;
+			remoteInfo = FoodDonation;
+		};
+		A27CB81324C72B8D0052E9B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A27CB7E624C72B880052E9B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A27CB7ED24C72B880052E9B2;
+			remoteInfo = FoodDonation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A27CB7EE24C72B880052E9B2 /* FoodDonation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodDonation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A27CB7F124C72B880052E9B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A27CB7F324C72B880052E9B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A27CB7F524C72B880052E9B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A27CB7F824C72B880052E9B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A27CB7FB24C72B880052E9B2 /* FoodDonation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FoodDonation.xcdatamodel; sourceTree = "<group>"; };
+		A27CB7FD24C72B8C0052E9B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A27CB80024C72B8C0052E9B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A27CB80224C72B8C0052E9B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A27CB80724C72B8C0052E9B2 /* FoodDonationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodDonationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A27CB80B24C72B8D0052E9B2 /* FoodDonationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDonationTests.swift; sourceTree = "<group>"; };
+		A27CB80D24C72B8D0052E9B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A27CB81224C72B8D0052E9B2 /* FoodDonationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodDonationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A27CB81624C72B8D0052E9B2 /* FoodDonationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDonationUITests.swift; sourceTree = "<group>"; };
+		A27CB81824C72B8D0052E9B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A27CB82424C737A30052E9B2 /* SignUpPAgeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPAgeViewController.swift; sourceTree = "<group>"; };
+		A27CB82624C76E740052E9B2 /* LoginPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A27CB7EB24C72B880052E9B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A27CB80424C72B8C0052E9B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A27CB80F24C72B8D0052E9B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A27CB7E524C72B880052E9B2 = {
+			isa = PBXGroup;
+			children = (
+				A27CB7F024C72B880052E9B2 /* FoodDonation */,
+				A27CB80A24C72B8C0052E9B2 /* FoodDonationTests */,
+				A27CB81524C72B8D0052E9B2 /* FoodDonationUITests */,
+				A27CB7EF24C72B880052E9B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A27CB7EF24C72B880052E9B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A27CB7EE24C72B880052E9B2 /* FoodDonation.app */,
+				A27CB80724C72B8C0052E9B2 /* FoodDonationTests.xctest */,
+				A27CB81224C72B8D0052E9B2 /* FoodDonationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A27CB7F024C72B880052E9B2 /* FoodDonation */ = {
+			isa = PBXGroup;
+			children = (
+				A27CB7F124C72B880052E9B2 /* AppDelegate.swift */,
+				A27CB7F324C72B880052E9B2 /* SceneDelegate.swift */,
+				A27CB7F524C72B880052E9B2 /* ViewController.swift */,
+				A27CB7F724C72B880052E9B2 /* Main.storyboard */,
+				A27CB7FD24C72B8C0052E9B2 /* Assets.xcassets */,
+				A27CB7FF24C72B8C0052E9B2 /* LaunchScreen.storyboard */,
+				A27CB80224C72B8C0052E9B2 /* Info.plist */,
+				A27CB7FA24C72B880052E9B2 /* FoodDonation.xcdatamodeld */,
+				A27CB82424C737A30052E9B2 /* SignUpPAgeViewController.swift */,
+				A27CB82624C76E740052E9B2 /* LoginPageViewController.swift */,
+			);
+			path = FoodDonation;
+			sourceTree = "<group>";
+		};
+		A27CB80A24C72B8C0052E9B2 /* FoodDonationTests */ = {
+			isa = PBXGroup;
+			children = (
+				A27CB80B24C72B8D0052E9B2 /* FoodDonationTests.swift */,
+				A27CB80D24C72B8D0052E9B2 /* Info.plist */,
+			);
+			path = FoodDonationTests;
+			sourceTree = "<group>";
+		};
+		A27CB81524C72B8D0052E9B2 /* FoodDonationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A27CB81624C72B8D0052E9B2 /* FoodDonationUITests.swift */,
+				A27CB81824C72B8D0052E9B2 /* Info.plist */,
+			);
+			path = FoodDonationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A27CB7ED24C72B880052E9B2 /* FoodDonation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A27CB81B24C72B8D0052E9B2 /* Build configuration list for PBXNativeTarget "FoodDonation" */;
+			buildPhases = (
+				A27CB7EA24C72B880052E9B2 /* Sources */,
+				A27CB7EB24C72B880052E9B2 /* Frameworks */,
+				A27CB7EC24C72B880052E9B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoodDonation;
+			productName = FoodDonation;
+			productReference = A27CB7EE24C72B880052E9B2 /* FoodDonation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A27CB80624C72B8C0052E9B2 /* FoodDonationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A27CB81E24C72B8D0052E9B2 /* Build configuration list for PBXNativeTarget "FoodDonationTests" */;
+			buildPhases = (
+				A27CB80324C72B8C0052E9B2 /* Sources */,
+				A27CB80424C72B8C0052E9B2 /* Frameworks */,
+				A27CB80524C72B8C0052E9B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A27CB80924C72B8C0052E9B2 /* PBXTargetDependency */,
+			);
+			name = FoodDonationTests;
+			productName = FoodDonationTests;
+			productReference = A27CB80724C72B8C0052E9B2 /* FoodDonationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A27CB81124C72B8D0052E9B2 /* FoodDonationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A27CB82124C72B8D0052E9B2 /* Build configuration list for PBXNativeTarget "FoodDonationUITests" */;
+			buildPhases = (
+				A27CB80E24C72B8D0052E9B2 /* Sources */,
+				A27CB80F24C72B8D0052E9B2 /* Frameworks */,
+				A27CB81024C72B8D0052E9B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A27CB81424C72B8D0052E9B2 /* PBXTargetDependency */,
+			);
+			name = FoodDonationUITests;
+			productName = FoodDonationUITests;
+			productReference = A27CB81224C72B8D0052E9B2 /* FoodDonationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A27CB7E624C72B880052E9B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Vaibhav Dutt";
+				TargetAttributes = {
+					A27CB7ED24C72B880052E9B2 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					A27CB80624C72B8C0052E9B2 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = A27CB7ED24C72B880052E9B2;
+					};
+					A27CB81124C72B8D0052E9B2 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = A27CB7ED24C72B880052E9B2;
+					};
+				};
+			};
+			buildConfigurationList = A27CB7E924C72B880052E9B2 /* Build configuration list for PBXProject "FoodDonation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A27CB7E524C72B880052E9B2;
+			productRefGroup = A27CB7EF24C72B880052E9B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A27CB7ED24C72B880052E9B2 /* FoodDonation */,
+				A27CB80624C72B8C0052E9B2 /* FoodDonationTests */,
+				A27CB81124C72B8D0052E9B2 /* FoodDonationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A27CB7EC24C72B880052E9B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A27CB80124C72B8C0052E9B2 /* LaunchScreen.storyboard in Resources */,
+				A27CB7FE24C72B8C0052E9B2 /* Assets.xcassets in Resources */,
+				A27CB7F924C72B880052E9B2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A27CB80524C72B8C0052E9B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A27CB81024C72B8D0052E9B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A27CB7EA24C72B880052E9B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A27CB7F624C72B880052E9B2 /* ViewController.swift in Sources */,
+				A27CB7FC24C72B880052E9B2 /* FoodDonation.xcdatamodeld in Sources */,
+				A27CB7F224C72B880052E9B2 /* AppDelegate.swift in Sources */,
+				A27CB82724C76E740052E9B2 /* LoginPageViewController.swift in Sources */,
+				A27CB7F424C72B880052E9B2 /* SceneDelegate.swift in Sources */,
+				A27CB82524C737A30052E9B2 /* SignUpPAgeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A27CB80324C72B8C0052E9B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A27CB80C24C72B8D0052E9B2 /* FoodDonationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A27CB80E24C72B8D0052E9B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A27CB81724C72B8D0052E9B2 /* FoodDonationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A27CB80924C72B8C0052E9B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A27CB7ED24C72B880052E9B2 /* FoodDonation */;
+			targetProxy = A27CB80824C72B8C0052E9B2 /* PBXContainerItemProxy */;
+		};
+		A27CB81424C72B8D0052E9B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A27CB7ED24C72B880052E9B2 /* FoodDonation */;
+			targetProxy = A27CB81324C72B8D0052E9B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A27CB7F724C72B880052E9B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A27CB7F824C72B880052E9B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A27CB7FF24C72B8C0052E9B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A27CB80024C72B8C0052E9B2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A27CB81924C72B8D0052E9B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A27CB81A24C72B8D0052E9B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A27CB81C24C72B8D0052E9B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FoodDonation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = notes.FoodDonation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A27CB81D24C72B8D0052E9B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FoodDonation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = notes.FoodDonation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A27CB81F24C72B8D0052E9B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FoodDonationTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = notes.FoodDonationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodDonation.app/FoodDonation";
+			};
+			name = Debug;
+		};
+		A27CB82024C72B8D0052E9B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FoodDonationTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = notes.FoodDonationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodDonation.app/FoodDonation";
+			};
+			name = Release;
+		};
+		A27CB82224C72B8D0052E9B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FoodDonationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = notes.FoodDonationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FoodDonation;
+			};
+			name = Debug;
+		};
+		A27CB82324C72B8D0052E9B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FoodDonationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = notes.FoodDonationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FoodDonation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A27CB7E924C72B880052E9B2 /* Build configuration list for PBXProject "FoodDonation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A27CB81924C72B8D0052E9B2 /* Debug */,
+				A27CB81A24C72B8D0052E9B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A27CB81B24C72B8D0052E9B2 /* Build configuration list for PBXNativeTarget "FoodDonation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A27CB81C24C72B8D0052E9B2 /* Debug */,
+				A27CB81D24C72B8D0052E9B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A27CB81E24C72B8D0052E9B2 /* Build configuration list for PBXNativeTarget "FoodDonationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A27CB81F24C72B8D0052E9B2 /* Debug */,
+				A27CB82024C72B8D0052E9B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A27CB82124C72B8D0052E9B2 /* Build configuration list for PBXNativeTarget "FoodDonationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A27CB82224C72B8D0052E9B2 /* Debug */,
+				A27CB82324C72B8D0052E9B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A27CB7FA24C72B880052E9B2 /* FoodDonation.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A27CB7FB24C72B880052E9B2 /* FoodDonation.xcdatamodel */,
+			);
+			currentVersion = A27CB7FB24C72B880052E9B2 /* FoodDonation.xcdatamodel */;
+			path = FoodDonation.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A27CB7E624C72B880052E9B2 /* Project object */;
+}
